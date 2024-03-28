@@ -3,14 +3,11 @@ package com.reactivespring.controller;
 import com.reactivespring.client.MoviesInfoRestClient;
 import com.reactivespring.client.ReviewsRestClient;
 import com.reactivespring.domain.Movie;
-import com.reactivespring.domain.MovieInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 
