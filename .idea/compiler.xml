@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movies-info-service" />
-        <module name="movies-service" />
         <module name="movies-review-service" />
+        <module name="movies-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
